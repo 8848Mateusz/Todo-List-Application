@@ -1,38 +1,35 @@
 # Todo List Application
-## Opis projektu
-- Aplikacja Todo List to interfejs użytkownika oparty na JavaScript, który komunikuje się z zewnętrznym API w celu zarządzania zadaniami i ich operacjami. Aplikacja umożliwia tworzenie, edytowanie, usuwanie oraz aktualizowanie zadań i operacji na zadaniach. Dane są pobierane i zapisywane za pomocą zapytań HTTP do API.
+## Project Description
+- The Todo List application is a JavaScript-based user interface that communicates with an external API to manage tasks and task operations. The application allows users to create, edit, delete, and update tasks and operations related to tasks. Data is fetched and saved using HTTP requests to the API.
 
-## Technologie
-- HTML, CSS, JavaScript: Interfejs użytkownika.
-- Fetch API: Komunikacja z zewnętrznym API.
-- Bootstrap: Biblioteka CSS do stylizacji interfejsu.
+## Technologies
+- HTML, CSS, JavaScript: User interface.
+- Fetch API: Communication with the external API.
+- Bootstrap: CSS library for styling the interface.
 - API: https://todo-api.coderslab.pl.
 
-## Funkcjonalności
-- Lista zadań (tasks):
-- Wyświetlanie listy zadań.
-- Tworzenie nowego zadania.
-- Usuwanie zadania.
-- Zamykanie zadania (zmiana statusu na "closed").
-- Operacje na zadaniach (operations):
-- Wyświetlanie operacji przypisanych do zadania.
-- Dodawanie nowej operacji do zadania.
-- Aktualizowanie czasu poświęconego na operację.
-- Usuwanie operacji z zadania.
+## Features
+- Task List (tasks):
+  - Display a list of tasks.
+  - Create a new task.
+  - Delete a task.
+  - Close a task (change status to "closed").
+- Task Operations (operations):
+  - Display operations assigned to a task.
+  - Add a new operation to a task.
+  - Update the time spent on an operation.
+  - Delete an operation from a task.
 
-## Wymagania
-- Przeglądarka obsługująca ES6 (ECMAScript 2015) i Fetch API.
+## Requirements
+- A browser that supports ES6 (ECMAScript 2015) and Fetch API.
 
-## Wymagania dotyczące API
-- Authorization: Wymagany jest nagłówek Authorization z Twoim kluczem API.
-- Content-Type: W przypadku zapytań POST i PUT wymagany jest nagłówek Content-Type: application/json.
+## API Requirements
+- Authorization: The Authorization header with your API key is required.
+- Content-Type: For POST and PUT requests, the Content-Type: application/json header is required.
 
-## Uwagi
-- Jeśli wystąpi błąd podczas komunikacji z API, sprawdź konsolę przeglądarki i zakładkę „Network” w narzędziach deweloperskich, aby zdiagnozować problem.
-- Upewnij się, że Twój klucz API jest poprawny i działa.
+## Notes
+- If an error occurs while communicating with the API, check the browser console and the "Network" tab in the developer tools to diagnose the issue.
+- Make sure your API key is correct and working.
 
-## Autor
-- Mateusz Maciejewski - Twórca projektu.
-
-##Licencja
-- Projekt jest dostępny na licencji MIT.
+## License
+- The project is available under the MIT License.
